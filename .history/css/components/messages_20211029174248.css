@@ -1,0 +1,65 @@
+.messages {
+    height: 100vh;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.messages-header {
+    border-bottom: 1 px solid rgb(240, 240, 240);
+}
+
+.message img {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.message-content {
+    margin-left: 20px;
+}
+
+.message-content p {
+    margin-bottom: 3px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+}
+
+.fas fa-circle {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #1FE5BD;
+    margin-top: 2 px;
+    margin-right: 8 px;
+}
+
+.online-badge-active {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #1FE5BD;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+.online-badge {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(165, 156, 164);
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+.messages-input {
+    margin-right: 20px;
+    margin-bottom: -20px;
+}
